@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <com.example.mywidgettest.Flowlayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView 
+            style="@style/text_01"
+            android:text="奋斗ing"/>
+        <TextView 
+            style="@style/text_01"
+            android:text="奋斗ing"/>
+        <TextView 
+            style="@style/text_01"
+            android:text="奋dddddd斗ing"/>
+        <TextView 
+            style="@style/text_01"
+            android:text="奋f斗ing"/>
+        <TextView 
+            style="@style/text_01"
+            android:text="奋vvvvv斗ing"/>
+        <TextView 
+            style="@style/text_01"
+            android:text="奋xxxxxx斗ing"/>
+        <TextView 
+            style="@style/text_01"
+            android:text="奋斗ing"/>
+        <TextView 
+            style="@style/text_01"
+            android:text="奋ccccccc斗ing"/>
+        <TextView 
+            style="@style/text_01"
+            android:text="奋dsfd斗ing"/>
+        <TextView 
+            style="@style/text_01"
+            android:text="奋 sddddddddddddddddddddddddd斗ing"/>
+        <TextView 
+            style="@style/text_01"
+            android:text="奋斗ing"/>
+        
+        
+        
+    </com.example.mywidgettest.Flowlayout>
+
+</LinearLayout>

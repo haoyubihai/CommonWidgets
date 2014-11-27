@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.example.mywidgettest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="click me" />
+
+    <com.example.mywidgettest.SpecialProgressBar
+        android:id="@+id/p1"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+    <com.example.mywidgettest.SpecialProgressBar
+        android:id="@+id/p2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        custom:percentTextColor="#0000ff"
+        custom:percentTextSize="20sp"
+        custom:progressColor="#00ff00"
+        custom:roundColor="#ff0000"
+        custom:roundWidth="5dip" />
+
+    <com.example.mywidgettest.SpecialProgressBar
+        android:id="@+id/p3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        custom:isTextDisplay="false"
+        custom:progressColor="#00ff00"
+        custom:roundColor="#ff0000"
+        custom:roundWidth="5dip" />
+
+    <com.example.mywidgettest.SpecialProgressBar
+        android:id="@+id/p4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        custom:progressColor="#00ff00"
+        custom:roundWidth="5dip" />
+
+    <com.example.mywidgettest.SpecialProgressBar
+        android:id="@+id/p5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+  />
+
+</LinearLayout>

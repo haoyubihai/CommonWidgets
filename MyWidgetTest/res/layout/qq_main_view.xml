@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.example.mywidgettest"
+    android:layout_width="match_parent"
+    android:background="#60ff0000"
+    android:layout_height="match_parent" >
+
+    <com.slidingmenu.qq.demo.MenuScrollView
+        android:id="@+id/menuScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:MarginRightSize="150dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <include layout="@layout/qq_left_menu" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#009900"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#0000ff"
+                    android:text="MENU"
+                    android:textColor="#000000" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.slidingmenu.qq.demo.MenuScrollView>
+
+</RelativeLayout>

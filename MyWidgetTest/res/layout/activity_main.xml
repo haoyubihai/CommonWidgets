@@ -1,0 +1,44 @@
+<com.example.mywidgettest.MyContain xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstLay" >
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#789878"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#983560"
+        android:gravity="center"
+        android:text="2"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#234820"
+        android:gravity="center"
+        android:text="3"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#792074"
+        android:gravity="center"
+        android:text="4"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+</com.example.mywidgettest.MyContain>

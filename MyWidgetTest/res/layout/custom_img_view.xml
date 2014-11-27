@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:custom="http://schemas.android.com/apk/res/com.example.mywidgettest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <com.example.mywidgettest.CustomImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        custom:imgsrc="@drawable/ic_launcher"
+        custom:imgScaleType="center"
+        custom:mtitle="hello"
+        custom:mtitle_color="#893893"
+        custom:mtitle_size="30sp"
+        />
+    <com.example.mywidgettest.CustomImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        custom:imgsrc="@drawable/ic_launcher"
+        custom:imgScaleType="center"
+        custom:mtitle="hellosssssssss"
+        custom:mtitle_color="#893893"
+        custom:mtitle_size="30sp"
+        />
+    <com.example.mywidgettest.CustomImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        custom:imgsrc="@drawable/ic_launcher"
+        custom:imgScaleType="center"
+        custom:mtitle="hellossssssssssssssssssssssssss"
+        custom:mtitle_color="#893893"
+        custom:mtitle_size="30sp"
+        />
+
+</LinearLayout>
