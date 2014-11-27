@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="mtitle" format="string"></attr>
+    <attr name="mtitle_color" format="color"></attr>
+    <attr name="mtitle_size" format="dimension"></attr>
+    <attr name="imgsrc" format="reference"></attr>
+    <attr name="imgScaleType">
+        <enum name="fillXY" value="0"></enum>
+        <enum name="center" value="1"></enum>
+    </attr>
+
+    <declare-styleable name="customTextView">
+        <attr name="mtitle"></attr>
+        <attr name="mtitle_color"></attr>
+        <attr name="mtitle_size"></attr>
+    </declare-styleable>
+    <declare-styleable name="customImageView">
+        <attr name="mtitle"></attr>
+        <attr name="mtitle_color"></attr>
+        <attr name="mtitle_size"></attr>
+        <attr name="imgsrc"></attr>
+        <attr name="imgScaleType"></attr>
+    </declare-styleable>
+
+    <!-- CustomProgressView -->
+    <attr name="firstColor" format="color"></attr>
+    <attr name="secondColor" format="color"></attr>
+    <attr name="circleWidth" format="dimension"></attr>
+    <attr name="speed" format="integer"></attr>
+
+    <declare-styleable name="CustomProgressView">
+        <attr name="firstColor"></attr>
+        <attr name="secondColor"></attr>
+        <attr name="circleWidth"></attr>
+        <attr name="speed"></attr>
+    </declare-styleable>
+    
+    <declare-styleable name="SepcialProgressBar">
+        <attr name="roundColor" format="color"></attr>
+        <attr name="progressColor" format="color"></attr>
+        <attr name="roundWidth" format="dimension"></attr>
+        <attr name="percentTextColor" format="color"></attr>
+        <attr name="percentTextSize" format="dimension"></attr>
+        <attr name="max" format="integer"></attr>
+        <attr name="isTextDisplay" format="boolean"></attr>
+        <attr name="style">
+            <enum name="STROKE" value="0"></enum>
+            <enum name="FILL" value="1"></enum>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="MenuScrollView">
+        <attr name="MarginRightSize" format="dimension"></attr>
+    </declare-styleable>
+</resources>
