@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/draw_lay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#900000"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#780098" >
+
+        <Button
+            android:id="@+id/btn_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:text="RIGHT" />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:textColor="#000000"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"
+            android:text="滑动左、右边缘调出菜单"
+            />
+    </RelativeLayout>
+
+    <fragment
+        android:id="@+id/left_menu"
+        android:name="com.drawerlayout.demo.LeftMenuFragment"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:tag="LEFT" />
+
+    <fragment
+        android:id="@+id/right_menu"
+        android:name="com.drawerlayout.demo.RightMenuFragment"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:tag="RIGHT" />
+
+</android.support.v4.widget.DrawerLayout>
